@@ -226,3 +226,19 @@ a{
     opacity: 0.7
 }
 
+#moon {
+    position: relative;
+    animation: moveImage 2s ease-in-out ;
+  }
+  
+  @keyframes moveImage {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
